@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "check": "biome check --write . && tsc --noEmit",
-    "install": "pnpm install",
+    "deps": "pnpm install",
     "lint": "biome check",
     "lint:fix": "biome check --write",
     "typecheck": "tsc --noEmit"
