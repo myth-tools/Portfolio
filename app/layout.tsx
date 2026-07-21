@@ -13,7 +13,7 @@ export function generateMetadata(): Metadata {
 		},
 		applicationName: `${personalInfo.name} Portfolio`,
 		title: {
-			default: `${personalInfo.name} — ${personalInfo.title} | ${personalInfo.constellationTechs.slice(0, 4).join(", ")}`,
+			default: `${personalInfo.name} — ${personalInfo.title}`,
 			template: `%s | ${personalInfo.name} — ${personalInfo.title}`,
 		},
 		description: personalInfo.seo?.description || personalInfo.tagline,
